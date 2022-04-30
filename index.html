@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <div class="Tareas">
+        <div>
+            <label>Nombre </label> <input id="txtTarea" type="text" />
+    
+            <button id="btnSubir">Subir Tarea</button>
+        </div>
+   
+    
+        <div>
+             <label for="">Descripcion</label><textarea name="" id="" cols="30" rows="10"></textarea>
+             <ul id="lista">
+
+              </ul>
+        </div>
+    </div> -->
+
+
+    <script src="script.js"></script>
+
+    <div class="Tareasall">
+        <div class="tarea">
+            <div style="text-align: center;font-family: Verdana; font-weight: bold ">
+                <label for="">Descripcion de la tarea</label>
+            </div>
+            <textarea name="" id="" cols="30" rows="30"></textarea>
+
+        </div>
+
+        <div class="descrip">
+            <br>
+            <div id="ingresartarea">
+                <label for="">Nombre de la Tarea:</label>
+
+                <input id="txtTarea" type="text" />
+            </div>
+
+            <br>
+            <label for="" style="font-family: Verdana; font-weight: bold; font-size: small;">Nombre de la tarea a Eliminar:</label>
+            <input type="text" id="txtDeleteTarea">
+            <button id="btnEliminarPendiente">Eliminar Tarea Pendiente</button>
+            <button id="btnEliminarProgreso">Eliminar Tarea en Progreso</button>
+            <button id="btnEliminarFinalizada">Eliminar Tarea Finalizada</button>
+
+            <h4 style="text-align: center; font-family: cursive; text-decoration: underline;">Categoria</h4>
+            <div class="botones">
+
+                <button id="btnPendiente" style="font-weight: bold;">Pendiente</button>
+                <button id="btnProgreso" style="font-weight: bold;">En Progreso</button>
+                <button id="btnFinalizada" style="font-weight: bold;">Finalizada</button>
+            </div>
+
+        </div>
+        <div class="lista">
+            <div style="text-align: center; font-family: Verdana">
+                <label for="">Lista de Tareas</label>
+            </div>
+            <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias in dicta odio expedita quam tempora id architecto iure, veritatis mollitia quae! Debitis in nulla dicta accusantium minima explicabo quidem perspiciatis! -->
+            <ul id="lista">
+
+                <label for="">~Tareas Pendiente~
+                 <ul id="pendiente"></ul>
+                </label>
+                <label for="">~En Progreso~
+                    <ul id="progreso"></ul>
+                </label>
+
+                <label for="">~Finalizadas~
+                 <ul id="finalizada"></ul>
+                </label>
+            </ul>
+        </div>
+
+    </div>
+    <footer>Elias Robledo</footer>
+</body>
+
+</html>
